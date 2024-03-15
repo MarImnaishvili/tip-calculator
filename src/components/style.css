@@ -13,7 +13,7 @@ body {
 
 #container {
   padding: 30px;
-  width: 900px;
+  width: 800px;
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
@@ -81,6 +81,7 @@ body {
   background-color: hsl(183, 100%, 15%);
   font-weight: 900;
   font-size: 22px;
+  cursor: pointer;
 }
 
 /* contSecond */
@@ -125,6 +126,7 @@ body {
   font-size: 20px;
   font-weight: 900;
   border-radius: 5px;
+  cursor: pointer;
 }
 .amoutbd {
   display: flex;
