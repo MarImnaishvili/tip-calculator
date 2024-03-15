@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Space, sans-serif;
+  background-color: hsl(185, 41%, 84%);
+}
+
+#container {
+  padding: 30px;
+  width: 900px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: hsl(0, 0%, 100%);
+}
+.contFirst {
+  width: 50%;
+}
+.contSecond {
+  width: 50%;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 20px;
+}
+.billNumInp {
+  background-color: hsl(185, 41%, 84%);
+  border-radius: 2px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.inputIcon {
+  outline: none;
+  border: none;
+  color: hsl(183, 100%, 15%);
+  background-color: transparent;
+  width: 80%;
+  text-align: end;
+  font-weight: 900;
+  font-size: 25px;
+}
+.bigInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  height: 50px;
+  padding: 5px 15px;
+  background-color: hsl(189, 41%, 97%);
+}
+
+.header4 {
+  text-align: start;
+  color: hsl(186, 14%, 43%);
+  margin-bottom: 10px;
+}
+.h4Second,
+.h4Third {
+  margin-top: 50px;
+}
+
+.tipBox {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.tipPersentBox {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(183, 100%, 15%);
+  font-weight: 900;
+  font-size: 22px;
+}
+
+/* contSecond */
+.contSecond {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tipAmountBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pNameBlocks {
+  color: hsl(0, 0%, 100%);
+}
+.person {
+  color: hsl(184, 14%, 56%);
+}
+.forPerson {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.pAmountBlocks {
+  color: hsl(172, 67%, 45%);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.resetBtn {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.amoutbd {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
