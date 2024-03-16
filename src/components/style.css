@@ -14,10 +14,11 @@ body {
 #container {
   padding: 30px;
   width: 800px;
+  max-width: 100%;
   border-radius: 30px;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 3%;
   background-color: hsl(0, 0%, 100%);
 }
 .contFirst {
@@ -132,4 +133,23 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #container {
+    flex-direction: column;
+    width: 375px;
+  }
+  .contFirst {
+    width: 100%;
+  }
+  .contSecond {
+    width: 100%;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  .amoutbd {
+    gap: 10px;
+  }
 }
