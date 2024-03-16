@@ -73,7 +73,7 @@ body {
   gap: 5px;
 }
 .tipPersentBox {
-  padding: 12px;
+  padding: 10px;
   width: 100px;
   border: none;
   outline: none;
@@ -87,7 +87,7 @@ body {
 
 /* contSecond */
 .contSecond {
-  padding: 35px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
